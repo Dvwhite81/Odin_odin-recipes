@@ -1,0 +1,47 @@
+body {
+    background-color: darksalmon;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 50px;
+}
+
+h1, h2 {
+    border: 3px solid;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+ul {
+    column-count: 2;
+    margin: 0 auto;
+    column-gap: 80px;
+}
+
+ol {
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+img {
+    height: auto;
+    margin: 0 auto;
+    width: 50%;
+}
